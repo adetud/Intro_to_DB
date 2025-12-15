@@ -1,3 +1,4 @@
+  GNU nano 8.6                     MySQLServer.py
 #!/usr/bin/python3
 
 import mysql.connector
@@ -18,13 +19,6 @@ def create_database():
             )
             print("Database 'alx_book_store' created successfully!")
 
-    except Error as e:
-        print(f"Error while connecting to MySQL: {e}")
-
-    finally:
-        if 'connection' in locals() and connection.is_connected():
-            cursor.close()
-            connection.close()
-
-if __name__ == "__main__":
-    create_database()
+                               [ Read 30 lines ]
+^G Help      ^O Write Out ^F Where Is  ^K Cut       ^T Execute   ^C Location
+^X Exit      ^R Read File ^\ Replace   ^U Paste     ^J Justify   ^/ Go To Line
